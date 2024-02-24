@@ -1,6 +1,5 @@
 import gitIcon from '../../assets/github.svg'
-import omegaImg from '../../assets/omega.png'
-import gucciImg from '../../assets/gucci.png'
+import careKeralaImg from '../../assets/carekerala.png'
 import cstocksImg from '../../assets/c-stocks.png'
 import notetickImg from '../../assets/notetick.png'
 
@@ -17,18 +16,16 @@ function Projects() {
         <div>
             <ul>
                 <li className="lg:grid grid-cols-2 gap-4  m-8">
-                    <img src={cstocksImg} alt="" className="w-full max-w-xl px-8 mb-2 border-8 rounded" />
+                    <img src={careKeralaImg} alt="" className="w-full max-w-xl px-8 mb-2 border-8 rounded" />
                     <div className="flex flex-col px-6 ">
-                        <h5 className="text-2xl font-customFont1 mb-3 lg:mb-8">C-Stocks</h5>
-                        <p className="font-customFont2">Welcome to c-stocks, a simple yet powerful book selling app 
-                        built with <span className='font-bold'>React, Bootstrap,</span>  and <span className='font-bold'>Node.js.</span> This application provides a user-friendly platform for 
-                        book enthusiasts to explore, buy, and sell their favorite reads.
+                        <h5 className="text-2xl font-customFont1 mb-3 lg:mb-8">CareKerala</h5>
+                        <p className="font-customFont2"> <strong>CareKerala:</strong> A comprehensive medical website built with <strong>Vite and React</strong>, accompanied by an <strong>Express.js</strong> backend. CareKerala empowers users to seamlessly book appointments with hospitals and personal appointments with doctors. Beyond scheduling, users can securely store and manage their health details digitally
                         </p>
                         <div className='flex items-center justify-between'>
                         <button className=" my-8 bg-purple-700 hover:bg-purple-600 text-white py-2 px-5 rounded-xl font-semibold self-start">
-                            <a href="https://cstocks-io.vercel.app">view project</a>
+                            <a href="https://carekerala-kerala.vercel.app" target="_blank" rel="noopener noreferrer">view project</a>
                         </button>
-                        <a href="https://github.com/syamkumar6/my-web" className='flex items-center text-purple-700 underline font-semibold gap-2'>view code<img src={gitIcon} alt="" className='w-10'/></a>
+                        <a href="https://github.com/syamkumar6/carekerala" target="_blank" rel="noopener noreferrer" className='flex items-center text-purple-700 underline font-semibold gap-2'>view code<img src={gitIcon} alt="" className='w-10'/></a>
                         </div>
                     </div>
                 </li>
@@ -42,46 +39,33 @@ function Projects() {
                         </p>
                         <div className='flex items-center justify-between'>
                         <button className=" my-8 bg-purple-700 hover:bg-purple-600 text-white py-2 px-5 rounded-xl font-semibold self-start">
-                            <a href="https://note-tick-io.vercel.app/">view project</a>
+                            <a href="https://note-tick-io.vercel.app/" target="_blank" rel="noopener noreferrer">view project</a>
                         </button>
-                        <a href="https://github.com/syamkumar6/todo.web" className='flex items-center text-purple-700 underline font-semibold gap-2'>view code<img src={gitIcon} alt="" className='w-10'/></a>
+                        <a href="https://github.com/syamkumar6/todo.web" target="_blank" rel="noopener noreferrer" className='flex items-center text-purple-700 underline font-semibold gap-2'>view code<img src={gitIcon} alt="" className='w-10'/></a>
                         </div>
                     </div>
                 </li>
                 <li className="lg:grid grid-cols-2 gap-4  m-8">
-                    <img src={gucciImg} alt="" className="w-full max-w-xl px-8 mb-2 border-8 rounded" />
+                    <img src={cstocksImg} alt="" className="w-full max-w-xl px-8 mb-2 border-8 rounded" />
                     <div className="flex flex-col px-6 ">
-                        <h5 className="text-2xl font-customFont1 mb-3 lg:mb-8">Gucci</h5>
-                        <p className="font-customFont2">This project marks the beginning of my journey into web 
-                        development, where I&lsquo;ve utilized the power of <span className='font-bold'>HTML</span> and <span className='font-bold'>Bootstrap </span> to create a simple yet 
-                        stylish web page.
+                        <h5 className="text-2xl font-customFont1 mb-3 lg:mb-8">C-Stocks</h5>
+                        <p className="font-customFont2">Welcome to c-stocks, a simple yet powerful book selling app 
+                        built with <span className='font-bold'>React, Bootstrap,</span>  and <span className='font-bold'>Node.js.</span> This application provides a user-friendly platform for 
+                        book enthusiasts to explore, buy, and sell their favorite reads.
                         </p>
                         <div className='flex items-center justify-between'>
                         <button className=" my-8 bg-purple-700 hover:bg-purple-600 text-white py-2 px-5 rounded-xl font-semibold self-start">
-                            <a href="https://syamkumar6.github.io/gucci">view project</a>
+                            <a href="https://cstocks-io.vercel.app" target="_blank" rel="noopener noreferrer">view project</a>
                         </button>
-                        <a href="https://github.com/syamkumar6/gucci" className='flex items-center text-purple-700 underline font-semibold gap-2'>view code<img src={gitIcon} alt="" className='w-10'/></a>
+                        <a href="https://github.com/syamkumar6/my-web" target="_blank" rel="noopener noreferrer" className='flex items-center text-purple-700 underline font-semibold gap-2'>view code<img src={gitIcon} alt="" className='w-10'/></a>
                         </div>
                     </div>
                 </li>
-                <li className="lg:grid grid-cols-2 gap-4 m-8">
-                    <img src={omegaImg} className="w-full max-w-xl px-8 mb-2 border-8 rounded" alt="" />
-                    <div className="flex flex-col px-6">
-                        <h5 className="text-2xl font-customFont1 mb-3 lg:mb-8">Omega</h5>
-                        <p className="font-customFont2">🚀 Welcome to my journey in the world of web development! 
-                        This repository houses my very first project as I embark on the exciting path of becoming a 
-                        web developer. The project showcases my early understanding of HTML for structuring the 
-                        content and CSS for styling the elements.
-                        </p>
-                        <div className='flex items-center justify-between'>
-                        <button className=" my-8 bg-purple-700 hover:bg-purple-600 text-white py-2 px-5 rounded-xl font-semibold self-start">
-                            <a href="https://syamkumar6.github.io/omega">view project</a>
-                        </button>
-                        <a href="https://github.com/syamkumar6/omega" className='flex items-center text-purple-700 underline font-semibold gap-2'>view code<img src={gitIcon} alt="" className='w-10'/></a>
-                        </div>
-                    </div>
-                </li>
+                
             </ul>
+            <div className='flex justify-center pt-5'>
+            <a href="https://github.com/syamkumar6?tab=repositories" target="_blank" rel="noopener noreferrer" className='flex items-center text-purple-700 underline font-semibold gap-2'>view all projects<img src={gitIcon} alt="" className='w-10'/></a>
+            </div>
         </div>
     </div>
   )
