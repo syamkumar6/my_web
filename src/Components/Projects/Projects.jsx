@@ -1,5 +1,5 @@
 import gitIcon from '../../assets/github.svg'
-import careKeralaImg from '../../assets/carekerala.png'
+import careKeralaImg from '../../assets/careKerala.png'
 import cstocksImg from '../../assets/c-stocks.png'
 import notetickImg from '../../assets/notetick.png'
 
