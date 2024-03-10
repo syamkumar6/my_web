@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.down-moving-arrow {
+/* .down-moving-arrow {
   animation: moveDown 1s infinite;
 }
 
@@ -28,4 +28,4 @@
 
 .animated-text {
   animation: slideIn 1.5s ease-out;
-}
+} */
