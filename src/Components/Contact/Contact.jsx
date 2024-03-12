@@ -26,14 +26,14 @@ function Contact() {
   return (
     <div id='contacts'  onSubmit={sendEmail} className="flex flex-col items-center pt-8" style={{ backgroundImage: `url(${backgroundImage})` }} >
         <div className="flex flex-col items-center gap-8 mt-8 px-4">
-            <h3 className="text-4xl font-bold mt-8 text-gray-800 flex flex-col items-center">
+            <h3 className="text-4xl font-customFont1 mt-8 text-gray-800 flex flex-col items-center">
               CONTACT
               <p className="border-b-4 border-purple-700 border-full mt-3 w-16 place-self-center"></p>
             </h3>
-            <p className="text-center text-lg font-customFont2 font-semibold text-gray-600 mb-6">Feel free to Contact me by submitting the form below and I will get back to you as soon as <br className='hidden lg:block'/> possible</p>
+            <p className="text-center text-lg font-customFont1 font-semibold text-gray-600 mb-6">Feel free to Contact me by submitting the form below and I will get back to you as soon as <br className='hidden lg:block'/> possible</p>
         </div>
         
-            <form className="flex flex-col gap-4 w-1/2 bg-gray-100 p-8 rounded mb-8">
+            <form className="flex flex-col gap-4 lg:w-1/2 bg-gray-100 p-8 rounded mb-8">
                 <label htmlFor="name" className="font-semibold">Name</label>
                 <input type="text" id="name" placeholder="Enter Your Name" name='user_name' className="rounded px-3 py-4 outline-none"/>
 

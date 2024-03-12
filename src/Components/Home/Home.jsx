@@ -17,7 +17,7 @@ function Home() {
   }
 
   return (
-    <div id="home" className="relative h-screen flex flex-col items-center justify-center pt-8" style={{ backgroundImage: `url(${backgroundImage})` }} >
+    <div id="home" className="relative h-screen flex flex-col items-center justify-center pt-8 animated-text" style={{ backgroundImage: `url(${backgroundImage})` }} >
 
       <div className="hidden lg:block absolute top-1/2 left-0 transform -translate-y-1/2">
         <div className="flex flex-col gap-4 bg-white border-slate-200 p-3">
@@ -38,15 +38,15 @@ function Home() {
       
       <div className="flex flex-col items-center justify-center mt-8 pt-8">
 
-        <h1 className="text-3xl lg:text-6xl font-bold mt-8 pt-8 font-customFont1 text-gray-800">
+        <h1 className="text-3xl lg:text-6xl font-bold mt-2  font-customFont1 text-gray-800">
           HEY, I&apos;M SYAM KUMAR
         </h1>
 
         <div className="mt-8 flex flex-col gap-3 items-center px-4">
-          <p className="font-customFont2 font-semibold text-lg text-gray-700">
+          <p className="font-customFont1 text-lg text-gray-600 font-semibold text-lg">
             Crafting digital experiences, one line of code at a time.
           </p>
-          <p className="font-customFont2 font-semibold text-lg text-gray-700">
+          <p className="font-customFont1 text-lg text-gray-600 font-semibold text-lg">
             Full Stack Developer on a mission to turn ideas into seamless web solutions.
           </p>
         </div>

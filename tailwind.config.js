@@ -10,7 +10,7 @@ export default {
     },
     fontFamily: {
       customFont1:['Inter','sans-serif'],
-      customFont2:['Poppins','sans-seri']
+      customFont2:['PT Sans','sans-seri']
     }
   },
   plugins: [],
