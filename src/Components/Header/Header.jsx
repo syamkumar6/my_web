@@ -8,9 +8,10 @@ function Header() {
   return (
     <div className="relative">
       <div
-        className={`fixed top-0 right-0 w-3/4 h-full bg-white z-50 transition-all duration-300 ${
+        className={`fixed top-0 right-0 w-3/4 h-screen bg-white transition-all duration-300 ${
           drawerVisible ? "translate-x-0" : "translate-x-full"}`}>
         <button
+          style={{ zIndex: 100 }}
           onClick={() => {setDrawerVisible(false)}}
           className="w-12 absolute top-6 right-6">
           <img src={CloseIcon} alt="" className="" />
@@ -35,7 +36,7 @@ function Header() {
 
       </div>
 
-      <header className="w-screen flex justify-between items-center px-6 py-3 h-20 bg-white fixed shadow z-40">
+      <header className="w-screen flex justify-between items-center px-6 py-3 h-20 bg-white shadow z-40">
 
         <div className="flex items-center gap-2">
           <img

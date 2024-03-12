@@ -39,7 +39,7 @@ function About() {
             ABOUT ME
             <p className="border-b-4 border-purple-700 border-full mt-3 w-16 place-self-center"></p>
         </h2>
-        <p className="text-center font-customFont2 text-lg text-gray-600 font-semibold">
+        <p className="text-center font-customFont1 text-lg text-gray-600 font-semibold">
           Here you will find more information about me, what I do, and my
           current skills mostly in <br className="hidden lg:block"/> terms of programming and technology
         </p>
