@@ -11,7 +11,7 @@ function Header() {
         className={`fixed top-0 right-0 w-3/4 h-full bg-white z-50 transition-all duration-300 ${
           drawerVisible ? "translate-x-0" : "translate-x-full"}`}>
         <button
-          onClick={() => {setDrawerVisible(false);}}
+          onClick={() => {setDrawerVisible(false)}}
           className="w-12 absolute top-6 right-6">
           <img src={CloseIcon} alt="" className="" />
         </button>
