@@ -10,6 +10,7 @@ export default {
     },
     fontFamily: {
       customFont1:['Inter','sans-serif'],
+      customFont3:['Salsa','sans-serif'],
       customFont2:['PT Sans','sans-seri']
     }
   },
