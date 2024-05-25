@@ -39,7 +39,7 @@ function Home() {
   return (
     <div id="home" className="relative h-screen flex flex-col items-center justify-center   bg-purple-600 "  >
        <div className="animated-bg-lines z-10"></div>
-      <div className=" absolute top-0 lg:top-1/2 left-0 transform -translate-y-1/2 z-50">
+      <div className=" absolute bottom-0 lg:top-1/2 left-0 transform -translate-y-1/2 z-50">
         <div className="flex flex-col gap-4 bg-gray-100 border-slate-200 p-3">
           <a href="https://www.linkedin.com/in/syam-kumar-4491342a0/" className="p-2 hover:border rounded-md border-purple-400 duration-100 ">
             <img src={linkedin} alt="" className="w-8" />
