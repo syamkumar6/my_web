@@ -47,7 +47,7 @@ function Home() {
           <a href="https://github.com/syamkumar6" className="p-2 hover:border rounded-md border-purple-400 duration-100 ">
             <img src={git} alt="" className="w-8" />
           </a>
-          <a href="#" className="p-2 hover:border rounded-md border-purple-400 duration-100 ">
+          <a href="https://www.instagram.com/sy__am__6/" className="p-2 hover:border rounded-md border-purple-400 duration-100 ">
             <img src={instagram} alt="" className="w-8" />
           </a>
           <a href="#" className="p-2 hover:border rounded-md border-purple-400 duration-100 ">
