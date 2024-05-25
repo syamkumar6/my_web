@@ -66,7 +66,7 @@ function Home() {
           <p className="  text-gray-200 font-semibold text-xl">
             Crafting digital experiences, one line of code at a time.
           </p>
-          <p className="  text-gray-200 font-semibold text-xl">
+          <p className=" hidden lg:block text-gray-200 font-semibold text-xl">
             Full Stack Developer on a mission to turn ideas into seamless web solutions.
           </p>
         </div>
