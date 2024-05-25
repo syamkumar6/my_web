@@ -18,7 +18,6 @@ function Footer() {
         <div className="flex flex-col gap-3 lg:gap-8">
           <h4 className="text-xl font-semibold ">SOCIAL</h4>
           <div className="flex  gap-4   ">
-          <img src={linkedin} alt="" className="w-8 " />
           <img src={git} alt="" className="w-8 bg-white " />
           <img src={instagram} alt="" className="w-8" />
           <img src={x} alt="" className="w-8" />

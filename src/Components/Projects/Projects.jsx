@@ -5,9 +5,9 @@ import notetickImg from '../../assets/notetick.png'
 
 function Projects() {
   return (
-    <div id="projects" className=" w-full bg-gray-100 py-8">
+    <div id="projects" className=" w-full bg-gray-100 py-8 ">
         <div className="col-span-2  p-4 flex flex-col justify-center items-center gap-4 mb-8">
-            <h5 className="text-4xl font-customFont1 text-gray-800 pt-8 flex flex-col items-center animated-text">
+            <h5 className="text-4xl font-customFont1 text-gray-600 pt-8 flex flex-col items-center animated-text">
                 PROJECTS
                 <p className="border-b-4 border-purple-700 border-full mt-3 w-16 place-self-center"></p>
             </h5>
@@ -18,8 +18,8 @@ function Projects() {
                 <li className="lg:grid grid-cols-2 gap-4  m-8">
                     <img src={careKeralaImg} alt="" className="w-full max-w-xl px-8 mb-2 border-8 rounded" />
                     <div className="flex flex-col px-6 ">
-                        <h5 className="text-2xl font-customFont1 mb-3 lg:mb-8">CareKerala</h5>
-                        <p className="font-customFont2"> <strong>CareKerala:</strong> A comprehensive medical website built with <strong>Vite and React</strong>, accompanied by an <strong>Express.js</strong> backend. CareKerala empowers users to seamlessly book appointments with hospitals and personal appointments with doctors. Beyond scheduling, users can securely store and manage their health details digitally
+                        <h5 className="text-2xl font-customFont1 mb-3 lg:mb-8 text-gray-600">CareKerala</h5>
+                        <p className="font-customFont2 text-gray-600"> <strong>CareKerala:</strong> A comprehensive medical website built with <strong>Vite and React</strong>, accompanied by an <strong>Express.js</strong> backend. CareKerala empowers users to seamlessly book appointments with hospitals and personal appointments with doctors. Beyond scheduling, users can securely store and manage their health details digitally
                         </p>
                         <div className='flex items-center justify-between'>
                         <button className=" my-8 bg-purple-700 hover:bg-purple-600 text-white py-2 px-5 rounded-xl font-semibold self-start">
@@ -32,8 +32,8 @@ function Projects() {
                 <li className="lg:grid grid-cols-2 gap-4  m-8">
                     <img src={notetickImg} alt="" className="w-full max-w-xl px-8 mb-2 border-8 rounded" />
                     <div className="flex flex-col px-6 ">
-                        <h5 className="text-2xl font-customFont1 mb-3 lg:mb-8">Note-Tick</h5>
-                        <p className="font-customFont2">Welcome to the <span className='font-bold'>Vite React</span>  Todo App with Express and MongoDB 
+                        <h5 className="text-2xl font-customFont1 mb-3 lg:mb-8 text-gray-600">Note-Tick</h5>
+                        <p className="font-customFont2 text-gray-600">Welcome to the <span className='font-bold'>Vite React</span>  Todo App with Express and MongoDB 
                         repository! This project combines the power of Vite and React.js on the frontend with an 
                          <span className='font-bold'>Express.js</span> backend and MongoDB for a complete full-stack todo application.
                         </p>
@@ -48,8 +48,8 @@ function Projects() {
                 <li className="lg:grid grid-cols-2 gap-4  m-8">
                     <img src={cstocksImg} alt="" className="w-full max-w-xl px-8 mb-2 border-8 rounded" />
                     <div className="flex flex-col px-6 ">
-                        <h5 className="text-2xl font-customFont1 mb-3 lg:mb-8">C-Stocks</h5>
-                        <p className="font-customFont2">Welcome to c-stocks, a simple yet powerful book selling app 
+                        <h5 className="text-2xl font-customFont1 mb-3 lg:mb-8 text-gray-600">C-Stocks</h5>
+                        <p className="font-customFont2 text-gray-600">Welcome to c-stocks, a simple yet powerful book selling app 
                         built with <span className='font-bold'>React, Bootstrap,</span>  and <span className='font-bold'>Node.js.</span> This application provides a user-friendly platform for 
                         book enthusiasts to explore, buy, and sell their favorite reads.
                         </p>
