@@ -62,11 +62,11 @@ function Home() {
           HEY, I&apos;M SYAM KUMAR
         </h1>
 
-        <div className="mt-8 flex flex-col gap-3 items-center px-4">
+        <div className="mt-8 flex flex-col gap-3 items-center px-4 text-center">
           <p className="  text-gray-200 font-semibold text-xl">
             Crafting digital experiences, one line of code at a time.
           </p>
-          <p className=" hidden lg:block text-gray-200 font-semibold text-xl">
+          <p className="hidden lg:block  text-gray-200 font-semibold text-xl">
             Full Stack Developer on a mission to turn ideas into seamless web solutions.
           </p>
         </div>
