@@ -37,7 +37,7 @@ function Home() {
   }
 
   return (
-    <div id="home" className="relative h-screen flex flex-col items-center justify-center   bg-purple-600 "  >
+    <div id="home" className="relative h-screen flex flex-col items-center justify-center   bg-purple-600"  >
        <div className="animated-bg-lines z-10"></div>
       <div className=" absolute bottom-0 lg:top-1/2 left-0 transform -translate-y-1/2 z-50">
         <div className="flex flex-row lg:flex-col gap-4 bg-gray-100 border-slate-200 p-3">
