@@ -121,3 +121,34 @@
 .contactBtn:hover button::after {
   display: none;
 }
+
+.text-shine {
+  position: absolute;
+  top: 2;
+  left: 50%;
+  margin-top: 2rem;
+  transform: translate(-50%, -50%);
+  padding: 12px 48px;
+  background: linear-gradient(to right, #4d4d4d 0, rgb(185, 33, 199) 10%, #4d4d4d 20%);
+  background-position: 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s infinite linear;
+  animation-fill-mode: forwards;
+  -webkit-text-size-adjust: none;
+  
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 180px;
+  }
+  100% {
+    background-position: 180px;
+  }
+}

@@ -5,13 +5,13 @@ import notetickImg from '../../assets/notetick.png'
 
 function Projects() {
   return (
-    <div id="projects" className=" w-full bg-gray-100 py-8 ">
-        <div className="col-span-2  p-4 flex flex-col justify-center items-center gap-4 mb-8">
-            <h5 className="text-4xl font-customFont1 text-gray-600 pt-8 flex flex-col items-center animated-text">
+    <div id="projects" className=" w-full bg-gray-100 py-8 relative pt-8">
+        <div className="col-span-2  p-4 flex flex-col justify-center items-center gap-4 mb-8 pt-8">
+            <h5 className="text-4xl font-customFont1 text-gray-600  flex flex-col items-center animated-text text-shine">
                 PROJECTS
                 <p className="border-b-4 border-purple-700 border-full mt-3 w-16 place-self-center"></p>
             </h5>
-            <p className="text-center p-3 font-customFont1 text-lg text-gray-600 font-semibold">A curated selection of self-initiated projects, including the creation of this portfolio website. <br /> Each project is a canvas where I experiment, learn, and evolve—fueling my journey to become a more skilled and versatile developer.</p>
+            <p className="text-center p-3 font-customFont1 text-lg text-gray-600 font-semibold pt-8 mt-32">A curated selection of self-initiated projects, including the creation of this portfolio website. <br /> Each project is a canvas where I experiment, learn, and evolve—fueling my journey to become a more skilled and versatile developer.</p>
         </div>
         <div>
             <ul>
