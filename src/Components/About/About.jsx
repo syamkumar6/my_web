@@ -34,14 +34,14 @@ function About() {
   };
  
   return (
-    <div id="about" className="lg:grid grid-cols-2 gap-4 w-full pt-8 bg-gray-100">
+    <div id="about" className="lg:grid grid-cols-2 gap-4 w-full pt-8 bg-gray-100 relative">
 
       <div className="col-span-2  p-4 flex flex-col justify-center items-center gap-4 mb-8">
-        <h2 className="text-4xl font-customFont1 mt-8 text-gray-600 flex flex-col items-center">
+        <h2 className="text-4xl font-customFont1 mt-8 text-gray-600 flex flex-col items-center text-shine">
             ABOUT ME
             <p className="border-b-4 border-purple-700 border-full mt-3 w-16 place-self-center"></p>
         </h2>
-        <p className="text-center font-customFont1 text-lg text-gray-600 font-semibold">
+        <p className="text-center font-customFont1 text-lg text-gray-600 font-semibold mt-8 pt-12">
           Here you will find more information about me, what I do, and my
           current skills mostly in <br className="hidden lg:block"/> terms of programming and technology
         </p>
