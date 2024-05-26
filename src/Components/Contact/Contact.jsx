@@ -41,7 +41,7 @@ function Contact() {
                 <input type="email" id="email" placeholder="Enter Your Email" name='user_email' className="rounded px-3 py-4 outline-none"/>
 
                 <label htmlFor="message" className="font-semibold text-gray-600">Message</label>
-                <textarea name="message" id="message" cols="20" rows="10" placeholder="Enter Your Message" className="rounded px-3 py-4 outline-none"></textarea>
+                <textarea name="message" id="message" cols="20" rows="10" placeholder="Message" className="rounded px-3 py-4 outline-none"></textarea>
                  
                  <button type='submit' value="Send" className="ml-5 my-8 bg-purple-700 hover:bg-purple-600 text-white py-3 px-8 rounded-xl font-semibold self-end text-sm">SUBMIT</button>
             </form>
